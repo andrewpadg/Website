@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 
+	<meta name="google-site-verification" content="X4u8UMJLb-OydSpVAy_xjQfU4xUREUWbeU9e-893_Ko"/>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +19,7 @@
   	<link rel="stylesheet" href="/css/component.css">
 	
     <link rel="stylesheet" href="/css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="/css/vegas.min.css">
 	<link rel="stylesheet" href="/css/style.css">
 
@@ -51,6 +53,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
             <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
+			<li><a href="#team-carousel" class="smoothScroll"><span>Projects</span></a></li>
             <li><a href="#gallery" class="smoothScroll"><span>My Life</span></a></li>
             <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
           </ul>
@@ -81,22 +84,56 @@
 <!-- About section -->
 
 <section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="about-thumb">
-          <h1>About Me</h1>
-          <p>Hello! My name is Andrew Padgett and I am a sophomore computer &ensp; science student at Clemson University. I do not currently know what I &emsp; want to do with my degree when I graduate, but I hope that I can use my knowledge for good. I have experience in C, C++, Java, HTML, and CSS, with plans to expand even further in the future to the point where I can delve into projects that interest me.</p>
-		  <p>I started this website with the intent of using it to express myself and learn more programming skills. I am recording my interests outside of computer science like my love for music with videos photos to log my path into the future. I hope that you find my site helpful!</p>
-		  <a href="/Computer Science Resume.pdf" class="smoothScroll btn btn-success btn-lg wow fadeInUp" download="/Computer Science Resume">Resume</a>
-        </div>
-      </div>
+	<div class="container">
+		<div class="row">
+	
+			<div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+				<div class="about-thumb">
+					<h1>About Me</h1>
+					<p>Hello! My name is Andrew Padgett and I am a junior computer science student at Clemson University. I do not currently know what I want to do with my degree when I graduate, but I hope that I can use my knowledge for&ensp;good. I have lots of experience in C, C++, and Java and some experience with many other languages and tools, with plans to expand even further in the future to the point where I can delve into projects that interest me.</p>
+					<p>I started this website with the intent of using it to express myself and learn more programming skills. I am recording some of my interests outside of computer science with videos and photos to log my path into the future. I hope that you find my site helpful!</p>
+					<a href="/ComputerScienceResume.pdf" class="smoothScroll btn btn-success btn-lg wow fadeInUp" target="_blank">Resume</a>
+				</div>
+			</div>
 
-      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
-        <img src="/images/about-img.jpeg" class="img-responsive img-circle" alt="About">
-      </div>
-  	</div>
-  </div>
+			<div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+				<img src="/images/about-img.jpeg" class="img-responsive img-circle" alt="About">
+			</div>
+		
+			<div class="clearfix"></div>
+		
+			<div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+				<div class="section-title text-center">
+					<h1>Projects</h1>
+				</div>
+			</div>
+		
+			<!-- team carousel -->
+			<div id="team-carousel" class="owl-carousel">	  	 
+				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="team-thumb">
+						<div class="image-holder">
+							<img src="images/cuhackit.jpg" class="img-responsive img-circle" alt="CUHackit" style="width:200px;height:200px;">
+						</div>
+						<h2 class="heading">2019 CUHackit</h2>
+						<p class="description">Competed in the 2019 CUHackit. Cooking in VR with Alexa</p>
+						<a href="https://github.com/coltonhs/CUhackit_2019" class="description" target="_blank">GitHub</a>
+					</div>
+				</div>
+				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="team-thumb">
+						<div class="image-holder">
+							<img src="images/calculator.png" class="img-responsive img-square" alt="calculator" style="width:200px;height:200px;">
+						</div>
+						<h2 class="heading">Simple Calculator</h2>
+						<p class="description">Simple Android calculator app built in Kotlin</p>
+						<a href="https://github.com/andrewpadg/KotlinCalculator" class="description" target="_blank">GitHub</a>
+					</div>
+				</div>
+			</div>
+			<!-- end team carousel -->
+		</div>
+	</div>
 </section>
 
 
@@ -113,43 +150,69 @@
         </div>
       </div>
 
-      <ul class="grid cs-style-4" style="padding-left: 0px;">
-        <li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-		  <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/JeSWylLFBwM?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-				<p>Your browser does not support iframes</p>
-			</iframe>
-		  </div>
+      <ul class="grid cs-style-4">
+	    <li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <figure>
+            <div><img src="images/cuhackitpic.jpg" alt="CUHackit"></div>
+            <figcaption>
+              <h1>CUHackit 2019</h1>
+              <small>This is a photo posted by the CUHackit Instagram account showing the demonstration floor following the 24 hour coding period. My team created a VR cooking game in Unity that allowed the player to talk to an Amazon Echo to give commands to the game, spawning items in the kitchen for use. We ended up placing 3rd in a couple categories.</small>
+            </figcaption>
+          </figure>
         </li>
-
-        <li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+		
+		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
           <figure>
             <div><img src="images/beach_soccer.jpg" alt="soccer on beach"></div>
             <figcaption>
               <h1>Soccer</h1>
-              <small>This an old photo of me playing soccer on the beach. I played most of my life at the local YMCA and then volunteered as an assistant coach with a past coach of mine when I became too old to play there. It was a lot of fun and I plan on becoming a referee for Clemson's intramural soccer league in the spring.</small>
+              <small>This an old photo of me playing soccer on the beach. I played most of my life at the local YMCA and then volunteered as an assistant coach with a past coach of mine when I became too old to play there.</small>
             </figcaption>
           </figure>
         </li>
-		  
-		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s" style="margin-top: -200px;">
+	  
+		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
           <figure>
             <div><img src="images/graduation.jpg" alt="HS graduation"></div>
             <figcaption>
-              <h1>High School Graduation</h1>
+              <h1 style="font-size:23px;">High School Graduation</h1>
               <small>This is a photo from of my graduation from Summerville High School in 2017. I finished somewhere in the top 20 out of 667 in my class with a 4.66 SCUGPA.</small>
             </figcaption>
           </figure>
         </li>
-		  
-		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+		
+		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <figure>
+            <div><img src="images/clemsonwin.jpeg" alt="friends at Clemson"></div>
+            <figcaption>
+              <h1>Clemson</h1>
+              <small>This an old photo of my friends and I after Clemson football's 2018 national championship victory. We went walking around Clemson listening to everyone on campus cheering after beating Alabama 44-16.</small>
+            </figcaption>
+          </figure>
+        </li>
+		
+		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
           <figure>
             <div><img src="images/karate.jpg" alt="karate"></div>
             <figcaption>
               <h1>Martial Arts</h1>
-              <small>I took shaolin kempo karate for around 4 years of my life which taught my a lot of life lessons. This is a photo after a training session in preparation for my trip to Sacramento, California to compete in sparring at the 2011 Super Grands.</small>
+              <small>I practiced shaolin kempo karate for around 4 years of my life which taught my a lot of life lessons. This is a photo after a training session in preparation for my trip to Sacramento, California to compete in sparring at the 2011 Super Grands.</small>
             </figcaption>
           </figure>
+        </li>
+		
+		<li class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+		  <figure>
+		    <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/JeSWylLFBwM?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+			    <p>Your browser does not support iframes</p>
+			  </iframe>
+		    </div>
+			<figcaption>
+			  <h1>Steel Drums</h1>
+			  <small>I have played steel drums since 7th grade and currently play for Clemson's gigging and big steel band. The gigging band is a professional sextet that plays various events in the community.</small> 
+			</figcaption>
+		  </figure>
         </li>
       </ul>
 
@@ -167,25 +230,23 @@
        <div class="col-md-offset-1 col-md-10 col-sm-12">
 
         <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+		  <br><br>
           <h1>Send a message</h1>
           <p>I will respond within 24 hours to any inquiries</p>
         </div>
 
-        <form action="/mail.php" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+        <form action="/mail.php" method="post" class="wow fadeInUp" data-wow-delay="0.4s">
           <div class="col-md-6 col-sm-6">
-            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+            <input name="name" type="text" class="form-control" id="name" placeholder="Name" required>
           </div>
           <div class="col-md-6 col-sm-6">
-            <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+            <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
           </div>
           <div class="col-md-12 col-sm-12">
-            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
           </div>
           <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
             <input type="submit" class="form-control" value="SEND MESSAGE">
-          </div>
-		  <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-            <input type="reset" class="form-control" value="Clear">
           </div>
         </form>
 
@@ -210,6 +271,9 @@
                     <li><a href="https://www.linkedin.com/in/andrew-padgett/" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.4s" target="_blank"></a></li>
                     <li><a href="https://www.instagram.com/andrewpadg/" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.6s" target="_blank"></a></li>
 				</ul>
+				
+				<p class="wow fadeInUp"  data-wow-delay="0.8s" >Copyright &copy; 2019 Andrew Padgett | 
+                Design: <a href="http://www.templatemo.com/tm-493-snapshot" title="free css templates" target="_blank">Templatemo</a></p>
                 
 			</div>
 			
@@ -228,6 +292,7 @@
 <script src="/js/vegas.min.js"></script>
 <script src="/js/modernizr.custom.js"></script>
 <script src="/js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="/js/smoothscroll.js"></script>
 <script src="/js/wow.min.js"></script>
 <script src="/js/custom.js"></script>
